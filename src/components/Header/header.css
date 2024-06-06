@@ -32,3 +32,34 @@
   font-size: 1.2pc;
   font-weight: 400;
 }
+.type2 {
+  display: flex;
+  justify-content: center;
+  background-color: cyan;
+  height: 3pc;
+  width: 18.4pc;
+  border-radius: 30px;
+  font-size: 1.3pc;
+  align-items: center;
+}
+.type2:hover {
+  background: blue;
+  color: white;
+}
+.facebook:hover {
+  color: rgb(34, 161, 200);
+}
+.type3 {
+  display: flex;
+  justify-content: center;
+  background-color: cyan;
+  height: 3pc;
+  width: 18.4pc;
+  border-radius: 10px;
+  font-size: 1.3pc;
+  align-items: center;
+}
+.type3:hover {
+  background: blue;
+  color: white;
+}

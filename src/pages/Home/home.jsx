@@ -326,13 +326,17 @@ const Home = () => {
         <div
           style={{
             marginTop: "4pc",
-            backgroundColor: "grey",
+            backgroundColor: "rgb(201, 198, 198)",
           }}
           className="section4"
         >
           <div className="shops">
-            <h1>
-              <span>Лучшие промокоды</span> Все скидки И предложения
+            <h1
+              style={{
+                marginTop: "3pc",
+              }}
+            >
+              <span>Лучшие промокоды </span> Все скидки И предложения
             </h1>
           </div>
           <div className="swipers">
