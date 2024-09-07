@@ -11,6 +11,8 @@
   justify-content: center;
   /* margin-left: 1pc; */
   color: white;
+  position: sticky;
+  inset: 0;
   gap: 1.2pc;
 }
 .home1 a {
@@ -541,7 +543,7 @@
   width: 100%;
   height: 100%;
   margin-top: 7pc;
-} 
+}
 
 .swiper-slide {
   text-align: center;

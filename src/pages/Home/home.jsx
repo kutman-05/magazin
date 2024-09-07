@@ -31,7 +31,7 @@ const Home = () => {
         <div className="container">
           <div className="home1">
             <NavLink>Все категории</NavLink>
-            <NavLink>Подборки рекомендуемых товаров </NavLink>
+            <NavLink>П  одборки рекомендуемых товаров </NavLink>
             <NavLink>Trade Assurance</NavLink>
             <NavLink to={"alai"}>Членство Alai.com</NavLink>
             <NavLink>Центр покупателей</NavLink>
@@ -196,7 +196,7 @@ const Home = () => {
                 <p>Одежда</p>
               </div>
             </NavLink>
-            <NavLink>
+            <NavLink to={"catch"}>
               <div className="part2">
                 <img
                   src="https://s.alicdn.com/@img/imgextra/i1/O1CN012sGbIl1o81tW54KPo_!!6000000005179-2-tps-200-200.png"
@@ -216,7 +216,7 @@ const Home = () => {
                 <p>Спорт и развлечения</p>
               </div>
             </NavLink>
-            <NavLink>
+            <NavLink to={"village"}>
               <div className="part4">
                 <img
                   src="https://s.alicdn.com/@img/imgextra/i1/O1CN01Ybvy8D1SCgMy5CYuG_!!6000000002211-2-tps-200-199.png"
@@ -240,7 +240,7 @@ const Home = () => {
                 </p>
               </div>
             </NavLink>
-            <NavLink>
+            <NavLink to={"books"}>
               <div className="part10">
                 <img
                   // style={{
@@ -261,7 +261,7 @@ const Home = () => {
             </NavLink>
           </div>
           <div className="category2">
-            <NavLink>
+            <NavLink to={"mebel"}>
               <div className="part6">
                 <img
                   src="https://s.alicdn.com/@img/imgextra/i2/O1CN01pq9lU028SRrrtj79B_!!6000000007931-2-tps-200-200.png"
@@ -270,7 +270,7 @@ const Home = () => {
                 <p>Мебель</p>
               </div>
             </NavLink>
-            <NavLink>
+            <NavLink to={"naushnik"}>
               <div className="part7">
                 <img
                   src="https://s.alicdn.com/@img/imgextra/i2/O1CN01lTlEA71idHDZyDnE1_!!6000000004435-2-tps-200-200.png"
@@ -281,7 +281,7 @@ const Home = () => {
                 </p>
               </div>
             </NavLink>
-            <NavLink>
+            <NavLink to={"beauty"}>
               {" "}
               <div className="part8">
                 <img
@@ -291,7 +291,7 @@ const Home = () => {
                 <p>Красота</p>
               </div>
             </NavLink>
-            <NavLink>
+            <NavLink to={"cars"}>
               {" "}
               <div className="part9">
                 <img
@@ -301,7 +301,7 @@ const Home = () => {
                 <p>Машины</p>
               </div>
             </NavLink>
-            <NavLink>
+            <NavLink to={"tehnica"}>
               <div className="part10">
                 <img
                   src="https://s.alicdn.com/@img/imgextra/i4/O1CN01VAlsfc1P9zBujbtCk_!!6000000001799-2-tps-200-200.png"
@@ -310,7 +310,7 @@ const Home = () => {
                 <p>Бытовая техника</p>
               </div>
             </NavLink>
-            <NavLink>
+            <NavLink to={"construction"}>
               <div className="part10">
                 <img
                   src="https://s.alicdn.com/@img/imgextra/i2/O1CN01wmYqD51WrDtOCBmav_!!6000000002841-2-tps-200-200.png"

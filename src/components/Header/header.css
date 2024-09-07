@@ -2,6 +2,10 @@
   background-color: black;
   width: 1449px;
   height: 7.5pc;
+  position: absolute;
+  z-index: 1000;
+  position: sticky;
+  inset: 0;
 }
 .hero {
   display: flex;

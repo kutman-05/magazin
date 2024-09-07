@@ -7,6 +7,17 @@ import Sport from "../pages/category/sport/sport";
 import Alai from "../pages/Hero/about-alai/alai";
 import Provil from "../pages/Profil/profil";
 import { useMainContext } from "../context/AuthContext";
+import Catch from "../pages/category/catch/catch";
+import Mebel from "../pages/category/Mebel/Mebel";
+import Ayil from "../pages/category/Village/Village";
+import Vilage from "../pages/category/Village/Village";
+import Books from "../pages/category/Books/Books";
+import Naushnik from "../pages/category/Naushnik/Naushnik";
+import Beauty from "../pages/category/Beauty/Beauty";
+import Cars from "../pages/category/Car/Cars";
+import Tehnica from "../pages/category/tehnica/tehnica";
+import { Construction } from "@mui/icons-material";
+import Constructions from "../pages/category/Construction/Construction";
 
 const MainRoutes = () => {
   const { user } = useMainContext();
@@ -37,6 +48,15 @@ const MainRoutes = () => {
     { path: "dress", element: <Dress />, key: 1 },
     { path: "accsessory", element: <Accessory />, key: 1 },
     { path: "sport", element: <Sport />, key: 1 },
+    { path: "catch", element: <Catch />, key: 1 },
+    { path: "mebel", element: <Mebel />, key: 1 },
+    { path: "village", element: <Vilage />, key: 1 },
+    { path: "books", element: <Books />, key: 1 },
+    { path: "naushnik", element: <Naushnik />, key: 1 },
+    { path: "beauty", element: <Beauty />, key: 1 },
+    { path: "cars", element: <Cars />, key: 1 },
+    { path: "tehnica", element: <Tehnica />, key: 1 },
+    { path: "construction", element: <Constructions />, key: 1 },
   ];
   const PROFIL = [];
   return (
